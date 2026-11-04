@@ -1,0 +1,12 @@
+INVESTMENT POLICY STATEMENT — SAMPLE CLIENT A (SYNTHETIC)
+Effective date: 2026-01-01
+
+Section 4. Investment Restrictions
+
+4.1 Issuer concentration. No single issuer shall exceed 5% of the Portfolio's net asset value.
+
+4.2 Sector concentration. Exposure to any one sector shall not exceed 25% of net asset value.
+
+4.3 Liquidity. The Portfolio shall maintain a minimum cash balance of 2% of net asset value.
+
+4.4 Prohibited holdings. The Portfolio shall not hold securities of the following issuers: MO, PM, BTI.

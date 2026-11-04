@@ -1,0 +1,167 @@
+{
+  "as_of": "2026-11-02",
+  "cash": 24000.0,
+  "positions": [
+    {
+      "ticker": "AAPL",
+      "issuer": "AAPL",
+      "sector": "Information Technology",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "MSFT",
+      "issuer": "MSFT",
+      "sector": "Information Technology",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "NVDA",
+      "issuer": "NVDA",
+      "sector": "Information Technology",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "ORCL",
+      "issuer": "ORCL",
+      "sector": "Information Technology",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "JNJ",
+      "issuer": "JNJ",
+      "sector": "Health Care",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "UNH",
+      "issuer": "UNH",
+      "sector": "Health Care",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "PFE",
+      "issuer": "PFE",
+      "sector": "Health Care",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "MRK",
+      "issuer": "MRK",
+      "sector": "Health Care",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "JPM",
+      "issuer": "JPM",
+      "sector": "Financials",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "BAC",
+      "issuer": "BAC",
+      "sector": "Financials",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "GS",
+      "issuer": "GS",
+      "sector": "Financials",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "MS",
+      "issuer": "MS",
+      "sector": "Financials",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "CAT",
+      "issuer": "CAT",
+      "sector": "Industrials",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "HON",
+      "issuer": "HON",
+      "sector": "Industrials",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "GE",
+      "issuer": "GE",
+      "sector": "Industrials",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "UPS",
+      "issuer": "UPS",
+      "sector": "Industrials",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "PG",
+      "issuer": "PG",
+      "sector": "Consumer Staples",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "KO",
+      "issuer": "KO",
+      "sector": "Consumer Staples",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "PEP",
+      "issuer": "PEP",
+      "sector": "Consumer Staples",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    },
+    {
+      "ticker": "WMT",
+      "issuer": "WMT",
+      "sector": "Consumer Staples",
+      "quantity": 488,
+      "price": 100.0,
+      "price_date": "2026-11-02"
+    }
+  ],
+  "expected": {}
+}

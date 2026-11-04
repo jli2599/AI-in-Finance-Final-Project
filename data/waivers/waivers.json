@@ -1,0 +1,11 @@
+[
+  {
+    "waiver_id": "W-001",
+    "rule_id": "R1",
+    "applies_to": ["AAPL"],
+    "valid_from": "2026-10-01",
+    "valid_to": "2026-10-31",
+    "granted_by": "Client (written consent on file)",
+    "note": "Synthetic example: temporary AAPL overweight during transition."
+  }
+]
