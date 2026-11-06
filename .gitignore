@@ -3,3 +3,14 @@ __pycache__/
 *.pyc
 .venv/
 .env
+
+# Local demo state, sensitive if real data is ever loaded
+/data/app_state.json
+__pycache__/
+.venv/
+
+# Local SEC inbox contents are intentionally outside version control except templates
+SEC Filings/*
+!SEC Filings/README.txt
+!SEC Filings/manifest.csv
+!SEC Filings/DEMO_GE_EVENT.txt

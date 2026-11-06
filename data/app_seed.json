@@ -1,0 +1,192 @@
+{
+  "clients": [
+    {
+      "id": "client_a",
+      "name": "Fictional Client A",
+      "portfolio": "clean.json",
+      "policy_id": "policy_a"
+    },
+    {
+      "id": "client_b",
+      "name": "Fictional Client B",
+      "portfolio": "issuer_breach.json",
+      "policy_id": "policy_b"
+    },
+    {
+      "id": "client_c",
+      "name": "Fictional Client C",
+      "portfolio": "prohibited_holding.json",
+      "policy_id": "policy_c"
+    }
+  ],
+  "policies": {
+    "policy_a": {
+      "version": 1,
+      "approved_by": "Seeded demo policy \u2014 not a real authorization",
+      "rules": [
+        {
+          "id": "R1",
+          "type": "max_issuer_weight",
+          "value": 0.05,
+          "clause_text": "No single issuer shall exceed 5% of NAV."
+        },
+        {
+          "id": "R2",
+          "type": "max_sector_weight",
+          "value": 0.25,
+          "clause_text": "Sector exposure shall not exceed 25%."
+        },
+        {
+          "id": "R3",
+          "type": "min_cash",
+          "value": 0.02,
+          "clause_text": "Maintain at least 2% cash."
+        },
+        {
+          "id": "R4",
+          "type": "prohibited_issuers",
+          "value": [
+            "MO",
+            "PM",
+            "BTI"
+          ],
+          "clause_text": "Do not hold MO, PM, or BTI."
+        },
+        {
+          "id": "R5",
+          "type": "max_top_n_issuers",
+          "value": {
+            "n": 5,
+            "max_weight": 0.25
+          },
+          "clause_text": "The combined weight of the five largest issuers must not exceed 25% of NAV. (Fictional demo rule)"
+        }
+      ]
+    },
+    "policy_b": {
+      "version": 1,
+      "approved_by": "Seeded demo policy \u2014 not a real authorization",
+      "rules": [
+        {
+          "id": "R1",
+          "type": "max_issuer_weight",
+          "value": 0.06,
+          "clause_text": "No issuer may exceed 6% of NAV."
+        },
+        {
+          "id": "R2",
+          "type": "max_sector_weight",
+          "value": 0.3,
+          "clause_text": "No sector may exceed 30%."
+        },
+        {
+          "id": "R3",
+          "type": "min_cash",
+          "value": 0.03,
+          "clause_text": "At least 3% cash must be held."
+        },
+        {
+          "id": "R4",
+          "type": "prohibited_issuers",
+          "value": [
+            "MO",
+            "BTI"
+          ],
+          "clause_text": "MO and BTI securities are excluded."
+        },
+        {
+          "id": "R5",
+          "type": "max_top_n_issuers",
+          "value": {
+            "n": 3,
+            "max_weight": 0.16
+          },
+          "clause_text": "The three largest issuers may not exceed 16% of the portfolio in aggregate. (Fictional demo rule)"
+        }
+      ]
+    },
+    "policy_c": {
+      "version": 1,
+      "approved_by": "Seeded demo policy \u2014 not a real authorization",
+      "rules": [
+        {
+          "id": "R1",
+          "type": "max_issuer_weight",
+          "value": 0.08,
+          "clause_text": "No issuer above 8%."
+        },
+        {
+          "id": "R2",
+          "type": "max_sector_weight",
+          "value": 0.35,
+          "clause_text": "No sector above 35%."
+        },
+        {
+          "id": "R3",
+          "type": "min_cash",
+          "value": 0.02,
+          "clause_text": "Cash at least 2%."
+        },
+        {
+          "id": "R4",
+          "type": "prohibited_issuers",
+          "value": [
+            "MO",
+            "PM",
+            "BTI"
+          ],
+          "clause_text": "Do not hold MO, PM, BTI."
+        },
+        {
+          "id": "R5",
+          "type": "sector_specific_issuer_cap",
+          "value": {
+            "default": 0.08,
+            "overrides": {
+              "Information Technology": 0.045
+            }
+          },
+          "clause_text": "Each issuer must remain below 8% NAV, but technology issuers have a tighter 4.5% cap. (Fictional demo rule)"
+        }
+      ]
+    }
+  },
+  "drafts": [],
+  "alerts": [],
+  "reviews": [],
+  "audit": [],
+  "processed_accessions": [],
+  "watchlist": [
+    {
+      "id": "ge",
+      "name": "General Electric / GE Aerospace",
+      "ticker": "GE",
+      "cik": "0000040545",
+      "aliases": [
+        "General Electric Company",
+        "GE Aerospace"
+      ]
+    },
+    {
+      "id": "3m",
+      "name": "3M Company",
+      "ticker": "MMM",
+      "cik": "0000066740",
+      "aliases": [
+        "3M Company"
+      ]
+    },
+    {
+      "id": "kellanova",
+      "name": "Kellanova",
+      "ticker": "K",
+      "cik": "0000055067",
+      "aliases": [
+        "Kellanova",
+        "Kellogg Company"
+      ]
+    }
+  ],
+  "processed_local_documents": {},
+  "local_checks": []
+}

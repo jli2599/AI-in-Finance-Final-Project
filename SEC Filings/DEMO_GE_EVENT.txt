@@ -1,0 +1,8 @@
+SYNTHETIC EDUCATIONAL DOCUMENT — NOT AN OFFICIAL SEC FILING
+Company: General Electric Company
+Form: 8-K (fictional document based on a historically documented separation)
+Date: 2024-04-02
+The company completed a spin-off of its GE Vernova energy business.
+The continuing company operates under the GE Aerospace name.
+This simulated summary is provided solely to test document parsing and watchlist alerts.
+It is not an authoritative source and cannot establish investment eligibility.

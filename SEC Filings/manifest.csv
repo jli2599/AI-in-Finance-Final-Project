@@ -1,0 +1,2 @@
+filename,issuer_name,ticker,cik,form,filing_date,source_url,source_type
+DEMO_GE_EVENT.txt,General Electric / GE Aerospace,GE,0000040545,8-K,2024-04-02,,synthetic
